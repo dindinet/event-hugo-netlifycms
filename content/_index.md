@@ -59,7 +59,7 @@ sections:
     features:
       - type: feature
         content: >
-          Event is a responsive theme for online events</em>, meetups,
+          Event is a responsive theme for online <em>events</em>, meetups,
           conferences and webinars from Stackbit.
         align: center
     feature_padding_vert: medium
