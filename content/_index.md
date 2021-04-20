@@ -128,7 +128,7 @@ sections:
     grid_items:
       - type: grid_item
         title: Eric Widget
-        subtitle: 'React **Awesome**, USA'
+        subtitle: 'React Awesome**, USA'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
