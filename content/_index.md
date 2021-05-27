@@ -439,25 +439,43 @@ sections:
     background_color: '#000000'
     background_image: images/cta-background.png
     background_image_opacity: 50
-  - type: grid_section
-    grid_items:
-      - type: grid_item
-        title: Address
+  - type: features_section
+    features:
+      - type: feature
+        title: Hands-On Workshops
         content: >-
-          1234 Some St.<br/>Some City, ST
-          12345<br/>[1-234-556-7890](tel:+12345567890)<br/>[email@example.com](mailto:email@example.com)<br/>**Time:**
-          9:30 AM to 3:30 PM
-      - type: grid_item
-        title: Follow Us
+          Enough of the dog latin already. We want to see real test in the
+          pages. Not that this is particularly  real. At least there is
+          something you can read that is if you speak English otherwise it is
+          just another dog.
+        image: /images/feature-1.jpg
+        image_alt: Feature 1 placeholder image
+        media_position: right
+        media_width: sixty
+      - type: feature
+        title: High-quality talks from field experts followed by Q&As
         content: >-
-          [Youtube](https://www.youtube.com/)<br/>[Medium](https://medium.com/)<br/>[Facebook](https://www.facebook.com/)<br/>[Twitter](https://twitter.com/home)<br/>
-    grid_cols: two
-    grid_gap_vert: large
-    grid_gap_horiz: medium
-    enable_cards: false
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+          elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
+          vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et.
+        image: /images/feature-2.jpg
+        image_alt: Feature 2 placeholder image
+        media_position: left
+        media_width: sixty
+      - type: feature
+        title: Technology Discussion Rooms for All Attendees
+        content: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+          elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
+          vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et
+          semper.
+        image: images/feature-3.jpg
+        image_alt: Feature 3 placeholder image
+        media_position: right
+        media_width: sixty
+    feature_padding_vert: large
     align: center
-    padding_top: medium
-    padding_bottom: medium
+    padding_top: none
     background_color: '#000000'
 seo:
   type: stackbit_page_meta
