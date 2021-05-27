@@ -1,6 +1,22 @@
 ---
 title: Home
 sections:
+  - type: hero_section
+    title: 'Inspire. Create. Build, Fail then Try Again'
+    subtitle: Conference for Creative People
+    content: '**April 14 - 16, 2021**'
+    actions:
+      - type: action
+        label: Get Your Ticket Today!
+        url: /about
+        style: primary
+    align: center
+    padding_top: large
+    padding_bottom: large
+    background_color: '#000000'
+    background_image: images/hero-background.jpg
+    background_image_opacity: 15
+    background_image_size: cover
   - type: grid_section
     grid_items:
       - type: grid_item
@@ -38,22 +54,6 @@ sections:
     enable_cards: false
     align: center
     background_color: '#000000'
-  - type: hero_section
-    title: 'Inspire. Create. Build, Fail then Try Again'
-    subtitle: Conference for Creative People
-    content: '**April 14 - 16, 2021**'
-    actions:
-      - type: action
-        label: Get Your Ticket Today!
-        url: /about
-        style: primary
-    align: center
-    padding_top: large
-    padding_bottom: large
-    background_color: '#000000'
-    background_image: images/hero-background.jpg
-    background_image_opacity: 15
-    background_image_size: cover
   - type: features_section
     title: What you’ll experience
     features:
@@ -72,10 +72,12 @@ sections:
       - type: feature
         title: Hands-On Workshops
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
-          elit at nibh ultrices, molestie ullamcorper leo sodales. Vehicula ut
-          ipsum sed sodales. Integer finibus scelerisque leo et semper.
-        image: images/feature-1.jpg
+          Enough of the dog latin already. We want to see real test in the
+          pages. Not that this is particularly  real. At least there is
+          something you can read that is if you speak English otherwise it is
+          just another dog.
+        image: >-
+          https://res.cloudinary.com/dklongley/image/upload/v1617363686/DemoralisedArmy.png
         image_alt: Feature 1 placeholder image
         media_position: right
         media_width: sixty
