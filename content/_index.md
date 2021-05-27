@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: Inspire. Create. Build.
+    title: 'Inspire. Create. Build, Fail then Try Again'
     subtitle: Conference for Creative People
     content: '**April 14 - 16, 2021**'
     actions:
@@ -13,7 +13,7 @@ sections:
     align: center
     padding_top: large
     padding_bottom: large
-    background_color: primary
+    background_color: '#000000'
     background_image: images/hero-background.jpg
     background_image_opacity: 15
     background_image_size: cover
@@ -53,7 +53,7 @@ sections:
     grid_gap_horiz: medium
     enable_cards: false
     align: center
-    background_color: secondary
+    background_color: '#000000'
   - type: features_section
     title: What you’ll experience
     features:
@@ -66,7 +66,7 @@ sections:
     align: center
     padding_top: medium
     padding_bottom: medium
-    background_color: none
+    background_color: '#000000'
   - type: features_section
     features:
       - type: feature
@@ -103,7 +103,7 @@ sections:
     feature_padding_vert: large
     align: center
     padding_top: none
-    background_color: none
+    background_color: '#000000'
   - type: cta_section
     title: Current price is only $49. The price will increase soon!
     actions:
@@ -119,7 +119,7 @@ sections:
     align: left
     padding_top: large
     padding_bottom: large
-    background_color: primary
+    background_color: '#000000'
     background_image: images/cta-background.png
     background_image_opacity: 50
   - type: grid_section
@@ -131,10 +131,8 @@ sections:
         subtitle: 'React Awesome, USA'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
-
-
-          **[Twitter](https://twitter.com/)**
+          scelerisque interdum ante. Duis tincidunt id purus sit amet
+          malesuada.**[Twitter](https://twitter.com/)**
         image: images/avatar_1.jpg
         image_alt: Speaker 1 photo
         image_position: top
@@ -143,10 +141,8 @@ sections:
         subtitle: 'The Studio, Distributed, Estonia'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
-
-
-          **[Twitter](https://twitter.com/)**
+          scelerisque interdum ante. Duis tincidunt id purus sit amet
+          malesuada.**[Twitter](https://twitter.com/)**
         image: images/avatar_2.jpg
         image_alt: Speaker 2 photo
         image_position: top
@@ -155,10 +151,8 @@ sections:
         subtitle: 'Microsoft, USA'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
-
-
-          **[Twitter](https://twitter.com/)**
+          scelerisque interdum ante. Duis tincidunt id purus sit amet
+          malesuada.**[Twitter](https://twitter.com/)**
         image: images/avatar_3.jpg
         image_alt: Speaker 3 photo
         image_position: top
@@ -167,10 +161,8 @@ sections:
         subtitle: 'Libris, USA'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
-
-
-          **[Twitter](https://twitter.com/)**
+          scelerisque interdum ante. Duis tincidunt id purus sit amet
+          malesuada.**[Twitter](https://twitter.com/)**
         image: images/avatar_4.jpg
         image_alt: Speaker 4 photo
         image_position: top
@@ -179,10 +171,8 @@ sections:
         subtitle: 'Exto, Canada'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
-
-
-          **[Twitter](https://twitter.com/)**
+          scelerisque interdum ante. Duis tincidunt id purus sit amet
+          malesuada.**[Twitter](https://twitter.com/)**
         image: images/avatar_5.jpg
         image_alt: Speaker 5 photo
         image_position: top
@@ -191,10 +181,8 @@ sections:
         subtitle: 'CSS Rocks, Sweden'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
-
-
-          **[Twitter](https://twitter.com/)**
+          scelerisque interdum ante. Duis tincidunt id purus sit amet
+          malesuada.**[Twitter](https://twitter.com/)**
         image: images/avatar_6.jpg
         image_alt: Speaker 6 photo
         image_position: top
@@ -203,10 +191,8 @@ sections:
         subtitle: 'Random CMS, Sweden'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
-
-
-          **[Twitter](https://twitter.com/)**
+          scelerisque interdum ante. Duis tincidunt id purus sit amet
+          malesuada.**[Twitter](https://twitter.com/)**
         image: images/avatar_7.jpg
         image_alt: Speaker 7 photo
         image_position: top
@@ -215,10 +201,8 @@ sections:
         subtitle: 'ReactEvent, Israel'
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
-
-
-          **[Twitter](https://twitter.com/)**
+          scelerisque interdum ante. Duis tincidunt id purus sit amet
+          malesuada.**[Twitter](https://twitter.com/)**
         image: images/avatar_8.jpg
         image_alt: Speaker 8 photo
         image_position: top
@@ -226,7 +210,7 @@ sections:
     grid_gap_vert: large
     grid_gap_horiz: medium
     align: center
-    background_color: none
+    background_color: '#000000'
   - type: features_section
     title: Watch Favorite Talks From Past Events
     subtitle: '2020'
@@ -261,7 +245,7 @@ sections:
     align: center
     padding_top: large
     padding_bottom: large
-    background_color: secondary
+    background_color: '#000000'
   - type: grid_section
     title: What People are Saying
     subtitle: Previous event attendees
@@ -269,10 +253,7 @@ sections:
       - type: grid_item
         content: >-
           I've had a wonderful few days at Event Conf. So grateful to have been
-          a part of it.
-
-
-          **Hanson Deck,** *App Developer, Studio*
+          a part of it.**Hanson Deck,** *App Developer, Studio*
         image: images/hanson-deck.jpg
         image_alt: Hanson Deck
         image_position: left
@@ -280,10 +261,7 @@ sections:
       - type: grid_item
         content: >-
           Been super impressed with developer talks of the Event Conf. Great
-          conference realy enjoy it!
-
-
-          **Miles Tone,** *CEO, Studio*
+          conference realy enjoy it!**Miles Tone,** *CEO, Studio*
         image: images/miles-tone.jpg
         image_alt: Miles Tone
         image_position: left
@@ -291,10 +269,7 @@ sections:
       - type: grid_item
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel.
-
-
-          **Eleanor Carr,** *CTO, Studio*
+          ligula, cursus id molestie vel.**Eleanor Carr,** *CTO, Studio*
         image: images/eleanor-carr.jpg
         image_alt: Eleanor Carr
         image_position: left
@@ -303,7 +278,7 @@ sections:
     grid_gap_vert: large
     grid_gap_horiz: medium
     align: center
-    background_color: none
+    background_color: '#000000'
   - type: grid_section
     title: Pricing
     subtitle: Pass for the event
@@ -312,15 +287,9 @@ sections:
         title: Base Camp Ticket
         subtitle: April 14
         title_align: left
-        content: |-
-          ---
-          ### Free
-
-          Watch only access for Base Camp track
-
-          * Conference Stickers
-          * Quisque eleifend imperdiet tortor
-          * Elementum eu rhoncus, volutpat
+        content: >-
+          ---### FreeWatch only access for Base Camp track* Conference Stickers*
+          Quisque eleifend imperdiet tortor* Elementum eu rhoncus, volutpat
         content_align: left
         actions:
           - type: action
@@ -333,16 +302,10 @@ sections:
         title: Summit ticket
         subtitle: April 14 - 15
         title_align: left
-        content: |-
-          ---
-          ### $49
-
-          Watch Only access to Summit & Base Camp Tracks
-
-          * Conference Stickers
-          * Technology discussion rooms
-          * Elementum eu rhoncus, volutpat
-          * Fringilla diam magnis libero lacinia
+        content: >-
+          ---### $49Watch Only access to Summit & Base Camp Tracks* Conference
+          Stickers* Technology discussion rooms* Elementum eu rhoncus, volutpat*
+          Fringilla diam magnis libero lacinia
         content_align: left
         actions:
           - type: action
@@ -355,17 +318,11 @@ sections:
         title: Full Ticket
         subtitle: April 14 - 16
         title_align: left
-        content: |-
-          ---
-          ### $139
-
-          HD quality for Base camp and Summit tracks
-
-          * Interactive sessions with speakers
-          * Conference Stickers & more sent to your home
-          * Q&A with speakers
-          * Certificates on Workshops
-          * Technology discussion rooms
+        content: >-
+          ---### $139HD quality for Base camp and Summit tracks* Interactive
+          sessions with speakers* Conference Stickers & more sent to your home*
+          Q&A with speakers* Certificates on Workshops* Technology discussion
+          rooms
         content_align: left
         actions:
           - type: action
@@ -380,7 +337,7 @@ sections:
     enable_cards: true
     padding_top: small
     padding_bottom: medium
-    background_color: primary
+    background_color: '#000000'
     background_image: images/pricing-background.jpg
     background_image_opacity: 10
   - type: grid_section
@@ -409,7 +366,7 @@ sections:
     align: center
     padding_top: large
     padding_bottom: large
-    background_color: none
+    background_color: '#000000'
   - type: grid_section
     title: Frequently Asked Questions
     subtitle: Our vision
@@ -457,7 +414,7 @@ sections:
     align: center
     padding_top: large
     padding_bottom: large
-    background_color: secondary
+    background_color: '#000000'
     background_image: images/faq-background.svg
     background_image_opacity: 15
     background_image_size: auto
@@ -477,27 +434,21 @@ sections:
     align: left
     padding_top: large
     padding_bottom: large
-    background_color: primary
+    background_color: '#000000'
     background_image: images/cta-background.png
     background_image_opacity: 50
   - type: grid_section
     grid_items:
       - type: grid_item
         title: Address
-        content: |-
-          1234 Some St.<br/>
-          Some City, ST 12345<br/>
-          [1-234-556-7890](tel:+12345567890)<br/>
-          [email@example.com](mailto:email@example.com)<br/>
-
-          **Time:** 9:30 AM to 3:30 PM
+        content: >-
+          1234 Some St.<br/>Some City, ST
+          12345<br/>[1-234-556-7890](tel:+12345567890)<br/>[email@example.com](mailto:email@example.com)<br/>**Time:**
+          9:30 AM to 3:30 PM
       - type: grid_item
         title: Follow Us
-        content: |-
-          [Youtube](https://www.youtube.com/)<br/>
-          [Medium](https://medium.com/)<br/>
-          [Facebook](https://www.facebook.com/)<br/>
-          [Twitter](https://twitter.com/home)<br/>
+        content: >-
+          [Youtube](https://www.youtube.com/)<br/>[Medium](https://medium.com/)<br/>[Facebook](https://www.facebook.com/)<br/>[Twitter](https://twitter.com/home)<br/>
     grid_cols: two
     grid_gap_vert: large
     grid_gap_horiz: medium
@@ -505,7 +456,7 @@ sections:
     align: center
     padding_top: medium
     padding_bottom: medium
-    background_color: none
+    background_color: '#000000'
 seo:
   type: stackbit_page_meta
   title: Stackbit Event Theme
@@ -535,3 +486,4 @@ seo:
       relativeUrl: true
 layout: advanced
 ---
+
