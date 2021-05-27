@@ -76,8 +76,7 @@ sections:
           pages. Not that this is particularly  real. At least there is
           something you can read that is if you speak English otherwise it is
           just another dog.
-        image: >-
-          https://res.cloudinary.com/dklongley/image/upload/v1617363686/DemoralisedArmy.png
+        image: /images/feature-1.jpg
         image_alt: Feature 1 placeholder image
         media_position: right
         media_width: sixty
@@ -439,44 +438,6 @@ sections:
     background_color: '#000000'
     background_image: images/cta-background.png
     background_image_opacity: 50
-  - type: features_section
-    features:
-      - type: feature
-        title: Hands-On Workshops
-        content: >-
-          Enough of the dog latin already. We want to see real test in the
-          pages. Not that this is particularly  real. At least there is
-          something you can read that is if you speak English otherwise it is
-          just another dog.
-        image: /images/feature-1.jpg
-        image_alt: Feature 1 placeholder image
-        media_position: right
-        media_width: sixty
-      - type: feature
-        title: High-quality talks from field experts followed by Q&As
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
-          elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
-          vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et.
-        image: /images/feature-2.jpg
-        image_alt: Feature 2 placeholder image
-        media_position: left
-        media_width: sixty
-      - type: feature
-        title: Technology Discussion Rooms for All Attendees
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
-          elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
-          vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et
-          semper.
-        image: images/feature-3.jpg
-        image_alt: Feature 3 placeholder image
-        media_position: right
-        media_width: sixty
-    feature_padding_vert: large
-    align: center
-    padding_top: none
-    background_color: '#000000'
 seo:
   type: stackbit_page_meta
   title: Stackbit Event Theme
