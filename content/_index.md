@@ -1,53 +1,52 @@
 ---
 title: Home
 sections:
-  - type: hero_section
-    title: Inspire. Create. Build.
+  - align: center
+    padding_top: large
+    background_image: images/hero-background.jpg
+    background_color: primary
+    background_image_size: cover
+    background_image_opacity: 15
     subtitle: Conference for Creative People
-    content: '**April 14 - 16, 2021**'
+    title: Inspire. Create. Build.
+    content: "**April 14 - 16, 2021**"
+    padding_bottom: large
+    type: hero_section
     actions:
       - type: action
         label: Get Your Ticket Today!
         url: /about
         style: primary
-    align: center
-    padding_top: large
-    padding_bottom: large
-    background_color: primary
-    background_image: images/hero-background.jpg
-    background_image_opacity: 15
-    background_image_size: cover
   - type: grid_section
     grid_items:
-      - type: grid_item
-        title: 2 Days
-        title_align: left
-        content: >-
-          Attend a two-track and two days conference on all things Jamstack,
-          gathering international.
-        content_align: left
-        image: images/2-days.svg
+      - image_width: twenty-five
         image_alt: Section item 1 icon
         image_position: left
-        image_width: twenty-five
-      - type: grid_item
-        title: 2 Tracks
+        title: 2 Days
+        content: Attend a two-track and two days conference on all things Jamstack,
+          gathering international.
+        type: grid_item
+        image: images/2-days.svg
         title_align: left
-        content: Two tracks conference for curious developers.
         content_align: left
-        image: images/2-tracks.svg
+      - image_width: twenty-five
         image_alt: Section item 2 icon
         image_position: left
-        image_width: twenty-five
-      - type: grid_item
-        title: 20+ Speakers
+        title: 2 Tracks
+        content: Two tracks conference for curious developers.
+        type: grid_item
+        image: images/2-tracks.svg
         title_align: left
-        content: Best in the field speakers and instructors.
         content_align: left
-        image: images/20-speakers.svg
+      - image_width: twenty-five
         image_alt: Section item 3 icon
         image_position: left
-        image_width: twenty-five
+        title: 20+ Speakers
+        content: Best in the field speakers and instructors.
+        type: grid_item
+        image: /images/netlify.svg
+        title_align: left
+        content_align: left
     grid_cols: three
     grid_gap_vert: medium
     grid_gap_horiz: medium
@@ -71,8 +70,7 @@ sections:
     features:
       - type: feature
         title: Hands-On Workshops
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
           elit at nibh ultrices, molestie ullamcorper leo sodales. Vehicula ut
           ipsum sed sodales. Integer finibus scelerisque leo et semper.
         image: images/feature-1.jpg
@@ -81,8 +79,7 @@ sections:
         media_width: sixty
       - type: feature
         title: High-quality talks from field experts followed by Q&As
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
           elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
           vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et.
         image: images/feature-2.jpg
@@ -91,8 +88,7 @@ sections:
         media_width: sixty
       - type: feature
         title: Technology Discussion Rooms for All Attendees
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
           elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
           vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et
           semper.
@@ -104,8 +100,16 @@ sections:
     align: center
     padding_top: none
     background_color: none
-  - type: cta_section
+  - actions_width: fourty
+    align: left
+    padding_top: large
+    background_image: images/cta-background.png
+    actions_position: right
+    background_color: primary
+    background_image_opacity: 50
     title: Current price is only $49. The price will increase soon!
+    padding_bottom: large
+    type: cta_section
     actions:
       - type: action
         label: Get tickets
@@ -114,21 +118,11 @@ sections:
         has_icon: true
         icon: arrow-right
         icon_position: right
-    actions_position: right
-    actions_width: fourty
-    align: left
-    padding_top: large
-    padding_bottom: large
-    background_color: primary
-    background_image: images/cta-background.png
-    background_image_opacity: 50
-  - type: grid_section
-    title: Speakers & Instructors
-    subtitle: Fantastic lineup of experts!
+  - align: center
     grid_items:
       - type: grid_item
         title: Eric Widget
-        subtitle: 'React Awesome, USA'
+        subtitle: React Awesome, USA
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
@@ -140,7 +134,7 @@ sections:
         image_position: top
       - type: grid_item
         title: Parsley Montana
-        subtitle: 'The Studio, Distributed, Estonia'
+        subtitle: The Studio, Distributed, Estonia
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
@@ -152,7 +146,7 @@ sections:
         image_position: top
       - type: grid_item
         title: Indigo Violet
-        subtitle: 'Microsoft, USA'
+        subtitle: Microsoft, USA
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
@@ -164,7 +158,7 @@ sections:
         image_position: top
       - type: grid_item
         title: Penny Tool
-        subtitle: 'Libris, USA'
+        subtitle: Libris, USA
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
@@ -176,7 +170,7 @@ sections:
         image_position: top
       - type: grid_item
         title: Shequondolisa Bivouac
-        subtitle: 'Exto, Canada'
+        subtitle: Exto, Canada
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
@@ -188,7 +182,7 @@ sections:
         image_position: top
       - type: grid_item
         title: Linguina Nettlewater
-        subtitle: 'CSS Rocks, Sweden'
+        subtitle: CSS Rocks, Sweden
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
@@ -200,7 +194,7 @@ sections:
         image_position: top
       - type: grid_item
         title: Hugh Millie-Yate
-        subtitle: 'Random CMS, Sweden'
+        subtitle: Random CMS, Sweden
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
@@ -212,7 +206,7 @@ sections:
         image_position: top
       - type: grid_item
         title: Theodore Handle
-        subtitle: 'ReactEvent, Israel'
+        subtitle: ReactEvent, Israel
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
           scelerisque interdum ante. Duis tincidunt id purus sit amet malesuada.
@@ -223,48 +217,44 @@ sections:
         image_alt: Speaker 8 photo
         image_position: top
     grid_cols: four
-    grid_gap_vert: large
-    grid_gap_horiz: medium
-    align: center
     background_color: none
-  - type: features_section
+    grid_gap_vert: large
+    subtitle: Fantastic lineup of experts!
+    title: Speakers & Instructors
+    grid_gap_horiz: medium
+    type: grid_section
+  - align: center
+    padding_top: large
+    feature_padding_vert: large
+    background_color: secondary
+    subtitle: "2020"
     title: Watch Favorite Talks From Past Events
-    subtitle: '2020'
+    padding_bottom: large
+    type: features_section
     features:
       - type: feature
         title: Fast tracks Iconic Nike campaign with the JAMstack
-        content: >-
-          Inspired by Colin Kaepernick, Nike created the Emmy-winning ‘Dream
+        content: Inspired by Colin Kaepernick, Nike created the Emmy-winning ‘Dream
           Crazy’ campaign and approached digital agency Matter Supply to launch
           it on the web within a month.
-        video_embed_html: >-
-          <iframe width="560" height="315"
+        video_embed_html: <iframe width="560" height="315"
           src="https://www.youtube.com/embed/2rA_ucpQ_Fk" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media;
           gyroscope; picture-in-picture" allowfullscreen></iframe>
         media_position: right
         media_width: sixty
       - type: feature
-        title: 'Um, its about your JavaScript...'
-        content: >-
-          JAMstack is revolutionising the way we think about workflow by
+        title: Um, its about your JavaScript...
+        content: JAMstack is revolutionising the way we think about workflow by
           providing a simpler developer experience, better performance, lower
           cost and greater scalability. From JAMstack WTF
-        video_embed_html: >-
-          <iframe width="560" height="315"
+        video_embed_html: <iframe width="560" height="315"
           src="https://www.youtube.com/embed/31WieWrYPqc" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media;
           gyroscope; picture-in-picture" allowfullscreen></iframe>
         media_position: left
         media_width: sixty
-    feature_padding_vert: large
-    align: center
-    padding_top: large
-    padding_bottom: large
-    background_color: secondary
-  - type: grid_section
-    title: What People are Saying
-    subtitle: Previous event attendees
+  - align: center
     grid_items:
       - type: grid_item
         content: >-
@@ -300,18 +290,18 @@ sections:
         image_position: left
         image_width: twenty-five
     grid_cols: three
-    grid_gap_vert: large
-    grid_gap_horiz: medium
-    align: center
     background_color: none
-  - type: grid_section
-    title: Pricing
-    subtitle: Pass for the event
+    grid_gap_vert: large
+    subtitle: Previous event attendees
+    title: What People are Saying
+    grid_gap_horiz: medium
+    type: grid_section
+  - padding_top: small
     grid_items:
-      - type: grid_item
-        title: Base Camp Ticket
+      - actions_align: left
+        actions_width: full-width
         subtitle: April 14
-        title_align: left
+        title: Base Camp Ticket
         content: |-
           ---
           ### Free
@@ -321,18 +311,18 @@ sections:
           * Conference Stickers
           * Quisque eleifend imperdiet tortor
           * Elementum eu rhoncus, volutpat
-        content_align: left
+        type: grid_item
         actions:
           - type: action
             label: Registration
             url: /thank-you
             style: primary
-        actions_align: left
-        actions_width: full-width
-      - type: grid_item
-        title: Summit ticket
-        subtitle: April 14 - 15
         title_align: left
+        content_align: left
+      - actions_align: left
+        actions_width: full-width
+        subtitle: April 14 - 15
+        title: Summit ticket
         content: |-
           ---
           ### $49
@@ -343,18 +333,18 @@ sections:
           * Technology discussion rooms
           * Elementum eu rhoncus, volutpat
           * Fringilla diam magnis libero lacinia
-        content_align: left
+        type: grid_item
         actions:
           - type: action
             label: Registration
             url: /thank-you
             style: primary
-        actions_align: left
-        actions_width: full-width
-      - type: grid_item
-        title: Full Ticket
-        subtitle: April 14 - 16
         title_align: left
+        content_align: left
+      - actions_align: left
+        actions_width: full-width
+        subtitle: April 14 - 16
+        title: Full Ticket
         content: |-
           ---
           ### $139
@@ -366,26 +356,27 @@ sections:
           * Q&A with speakers
           * Certificates on Workshops
           * Technology discussion rooms
-        content_align: left
+        type: grid_item
         actions:
           - type: action
             label: Order Now
             url: /thank-you
             style: primary
-        actions_align: left
-        actions_width: full-width
-    grid_cols: three
-    grid_gap_vert: small
-    grid_gap_horiz: small
+        title_align: left
+        content_align: left
     enable_cards: true
-    padding_top: small
-    padding_bottom: medium
-    background_color: primary
     background_image: images/pricing-background.jpg
+    grid_cols: three
+    background_color: primary
+    grid_gap_vert: small
     background_image_opacity: 10
-  - type: grid_section
-    title: Our Sponsors
-    subtitle: We Are Supported by Awesome Companies
+    subtitle: Pass for the event
+    title: Pricing
+    padding_bottom: medium
+    grid_gap_horiz: small
+    type: grid_section
+  - align: center
+    padding_top: large
     grid_items:
       - type: grid_item
         image: images/stackbit.svg
@@ -404,21 +395,20 @@ sections:
         image_alt: Sticker Mule logo
         image_align: center
     grid_cols: four
-    grid_gap_vert: medium
-    grid_gap_horiz: medium
-    align: center
-    padding_top: large
-    padding_bottom: large
     background_color: none
-  - type: grid_section
-    title: Frequently Asked Questions
-    subtitle: Our vision
+    grid_gap_vert: medium
+    subtitle: We Are Supported by Awesome Companies
+    title: Our Sponsors
+    padding_bottom: large
+    grid_gap_horiz: medium
+    type: grid_section
+  - align: center
+    padding_top: large
     grid_items:
       - type: grid_item
         title: How can I get to the venue?
         title_align: left
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
           elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
           vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et
           semper.
@@ -426,8 +416,7 @@ sections:
       - type: grid_item
         title: What about accommodation for attendees?
         title_align: left
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
           elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
           vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et
           semper.
@@ -435,8 +424,7 @@ sections:
       - type: grid_item
         title: Can I get a refund on my tickets?
         title_align: left
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
           elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
           vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et
           semper.
@@ -444,26 +432,34 @@ sections:
       - type: grid_item
         title: What payment types do you accept?
         title_align: left
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
+        content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet
           elit at nibh ultrices, molestie ullamcorper leo sodales. Pellentesque
           vehicula ut ipsum sed sodales. Integer finibus scelerisque leo et
           semper.
         content_align: left
-    grid_cols: two
-    grid_gap_vert: small
-    grid_gap_horiz: medium
     enable_cards: false
-    align: center
-    padding_top: large
-    padding_bottom: large
-    background_color: secondary
     background_image: images/faq-background.svg
-    background_image_opacity: 15
-    background_image_size: auto
+    grid_cols: two
     background_image_repeat: repeat
-  - type: cta_section
+    background_color: secondary
+    grid_gap_vert: small
+    background_image_size: auto
+    background_image_opacity: 15
+    subtitle: Our vision
+    title: Frequently Asked Questions
+    padding_bottom: large
+    grid_gap_horiz: medium
+    type: grid_section
+  - actions_width: fourty
+    align: left
+    padding_top: large
+    background_image: images/cta-background.png
+    actions_position: right
+    background_color: primary
+    background_image_opacity: 50
     title: Current price is only $49. The price will increase soon!
+    padding_bottom: large
+    type: cta_section
     actions:
       - type: action
         label: Get tickets
@@ -472,15 +468,8 @@ sections:
         has_icon: true
         icon: arrow-right
         icon_position: right
-    actions_position: right
-    actions_width: fourty
-    align: left
-    padding_top: large
-    padding_bottom: large
-    background_color: primary
-    background_image: images/cta-background.png
-    background_image_opacity: 50
-  - type: grid_section
+  - align: center
+    padding_top: medium
     grid_items:
       - type: grid_item
         title: Address
@@ -498,39 +487,38 @@ sections:
           [Medium](https://medium.com/)<br/>
           [Facebook](https://www.facebook.com/)<br/>
           [Twitter](https://twitter.com/home)<br/>
-    grid_cols: two
-    grid_gap_vert: large
-    grid_gap_horiz: medium
     enable_cards: false
-    align: center
-    padding_top: medium
-    padding_bottom: medium
+    grid_cols: two
     background_color: none
+    grid_gap_vert: large
+    padding_bottom: medium
+    grid_gap_horiz: medium
+    type: grid_section
 seo:
   type: stackbit_page_meta
   title: Stackbit Event Theme
   description: The preview of the Event theme
   extra:
-    - name: 'og:type'
+    - name: og:type
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: og:title
       value: Stackbit Event Theme
       keyName: property
-    - name: 'og:description'
+    - name: og:description
       value: The preview of the Event theme
       keyName: property
-    - name: 'og:image'
+    - name: og:image
       value: images/feature-3.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: twitter:card
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: twitter:title
       value: Stackbit Event Theme
-    - name: 'twitter:description'
+    - name: twitter:description
       value: The preview of the Event theme
-    - name: 'twitter:image'
+    - name: twitter:image
       value: images/feature-3.jpg
       relativeUrl: true
 layout: advanced
