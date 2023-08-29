@@ -58,7 +58,7 @@ sections:
     title: What you’ll experience
     features:
       - type: feature
-        content: >-
+        content: >
           Event is a responsive theme for online events, meetups, conferences
           and webinars from Stackbit.
         align: center
