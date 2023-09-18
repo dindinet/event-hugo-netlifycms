@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: dindinet/event-hugo-netlifycms
   branch: preview
 media_folder: static/images
 public_folder: /images
